@@ -11,20 +11,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .countdown-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   margin: 5rem;
 }
 
 .time {
   font-size: 5rem;
   margin: 0 2rem;
+  font-weight: 400;
 }
 
 .count-el {
